@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+    <h1 class="main_heading">Payment Form</h1>
+    <hr>
+    <h2>UserInformation</h2>
+    <p>
+        Name : 
+        <input type="text" required="name" placeholder="Enter the name">
+    </p>
+    <p>
+        <fieldset>
+            <legend>Gender</legend>
+            Male <input type="radio" name="Gender" id="Male"> Feamle <input type="radio" name="Gender" id="Feamle">
+        </fieldset>
+    </p>
+    <p>
+        Address : <textarea name="Address" id="Address" cols="200" rows="10"></textarea>
+    </p>
+    <p>
+        Email :
+        <input type="email" name="email" id="email">
+    </p>
+    <p> Pin :
+        <input type="number" name="number" id="number">
+    </p>
+    <hr>
+    <p>
+    <h2>Payment Information</h2>
+    <p>
+        Card type
+        <select name="Card tyoe" id="">
+            <option value="">---select card type---</option>
+            <option value="visa">Visa</option>
+            <option value="sbi">Sbi</option>
+            <option value="AMazon">Amazon</option>
+        </select>
+    </p>
+    <p>
+        Card number :
+        <input type="password" name="number" id="number" placeholder="xxxx xxxx xxxx">
+    </p>
+    <p>
+        Expairing Date :
+        <input type="date" name="date" id="date">
+    </p>
+    <p>
+        CVV :
+        <input type="number" name="cvv" id="cvv" placeholder="cvv">
+    </p>
+    <p>
+        <input type="submit" value="PAY NOW">
+    </p>
+    </div>
+</form>
+</body>
+</html>
